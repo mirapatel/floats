@@ -1,0 +1,40 @@
+body {
+	background-color: grey;
+	margin: 0 auto;
+	width: 1010px;
+}
+
+nav {
+	height: 50px;
+	background-color: red;
+}
+
+main {
+	min-height: 1000px;
+	background-color: blue;
+	margin-top: 20px;
+}
+#box {
+	float: right;	
+
+}
+
+#sidebar {
+	float: left;
+	background-color: yellow;
+	height: 600px;
+	width: 180px;
+	margin-left: 10px;
+
+}
+
+.banner {
+	width: 800px;
+	float: right;
+	margin-right: 10px;
+}
+
+#shop-now {
+	margin-right: 6px;
+}
+
