@@ -1,0 +1,72 @@
+/* body {
+	background-color:#FF000;
+} */
+
+nav {
+	height: 100px;
+	background-color: #333;
+}
+
+main {
+/*	min-height: 800px;*/
+	background-color: grey;
+	width: 1280px; /*1366 is common pixels */
+	margin: 0 auto;
+}
+
+main > img {
+	float: left;
+}
+
+h2 {
+	clear: both;
+}
+
+/*#product1,
+#product2,
+#product3*/ 
+.product {
+	height: 300px;
+	background-color: pink;
+	margin-right: 25.6px;
+	/*margin-bottom: 10px;*/
+	width: 32%;
+	float: left;
+	/*margin-left: 13px;*/
+}
+
+#product3{
+	margin-right: 0;
+}
+
+main:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.blogpost {
+	height: 600px;
+	background-color: purple;
+	margin-bottom: 10px;
+}
+
+.side {
+	height: 200px;
+	background-color: navy;
+	margin-bottom: 10px;
+}
+
+#posts {
+	float: left;
+	width: 844px;
+}
+
+#sidebar {
+	float: right;
+	width: 410px;
+}
+
+
+
+
